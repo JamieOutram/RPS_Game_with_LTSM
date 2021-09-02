@@ -13,17 +13,17 @@ Solved with 2 strategies:
 
 Run main.py for results
 
-Output from last run:
-LSTM Model Loaded
-2021-09-02 14:04:25.588115: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
-Final results: {'p1': 999, 'p2': 0, 'tie': 1}
-Player 1 win rate: 100.0%
-DNN Model Loaded
-Final results: {'p1': 792, 'p2': 61, 'tie': 147}
-Player 1 win rate: 92.84876905041031%
-Final results: {'p1': 997, 'p2': 1, 'tie': 2}
-Player 1 win rate: 99.8997995991984%
-Final results: {'p1': 877, 'p2': 62, 'tie': 61}
-Player 1 win rate: 93.39723109691161%
-
+Output from last run:  
+LSTM Model Loaded  
+2021-09-02 14:04:25.588115: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201  
+Final results: {'p1': 999, 'p2': 0, 'tie': 1}  
+Player 1 win rate: 100.0%  
+DNN Model Loaded  
+Final results: {'p1': 792, 'p2': 61, 'tie': 147}  
+Player 1 win rate: 92.84876905041031%  
+Final results: {'p1': 997, 'p2': 1, 'tie': 2}  
+Player 1 win rate: 99.8997995991984%  
+Final results: {'p1': 877, 'p2': 62, 'tie': 61}  
+Player 1 win rate: 93.39723109691161%  
+ 
 Note: The RPS_game.py file was only modified to fix a bug where abbey would remember all previously played games, the edit allows clearing of abbey's memory through a boolean option inbetween games
